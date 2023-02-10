@@ -5,70 +5,41 @@
       "blocks": {
         "slideshow-0": {
           "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Homepage_Header_w_overlay.jpg",
-            "bg_position": "center-center",
-            "overlay_opacity": 20,
-            "text_color": "text-light",
-            "title": "Welcome to Palo Alto",
-            "slide_subheading": "This subheading helps you provide some more detail to the title above.",
-            "slide_btn_text": "Shop Our Creams",
-            "slide_btn_link": "shopify:\/\/collections\/all",
-            "slide_btn_style": "primary",
-            "slide_btn_text_2": "",
-            "slide_btn_link_2": "",
-            "slide_btn_style_2": "secondary",
-            "video_btn_text": "",
-            "video_btn_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
-          }
+          "settings": {}
+        },
+        "slideshow-1": {
+          "type": "image",
+          "settings": {}
         }
       },
       "block_order": [
-        "slideshow-0"
+        "slideshow-0",
+        "slideshow-1"
       ],
-      "settings": {
-        "slide_height": "seven-fifty-height-hero",
-        "content_alignment": "center",
-        "show_nav_dots": true,
-        "show_nav_arrows": true,
-        "show_arrow_down": false,
-        "autoplay": false,
-        "duration": 4,
-        "transition": "slide"
-      }
+      "settings": {}
     },
     "collection-list": {
       "type": "section-list-collection",
       "blocks": {
         "collection-list-0": {
           "type": "collection",
-          "settings": {
-            "collection": ""
-          }
+          "settings": {}
         },
         "collection-list-1": {
           "type": "collection",
-          "settings": {
-            "collection": ""
-          }
+          "settings": {}
         },
         "collection-list-2": {
           "type": "collection",
-          "settings": {
-            "collection": ""
-          }
+          "settings": {}
         },
         "collection-list-3": {
           "type": "collection",
-          "settings": {
-            "collection": ""
-          }
+          "settings": {}
         },
         "collection-list-4": {
           "type": "collection",
-          "settings": {
-            "collection": ""
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -79,47 +50,20 @@
         "collection-list-4"
       ],
       "settings": {
-        "layout": "carousel",
-        "columns": 3,
-        "title": "Collection list",
-        "button_text": "Shop all",
-        "button_style": "secondary",
-        "overlay_opacity": 20,
-        "bg_color": "",
-        "text_color": "light",
-        "enable_slider": true
+        "title": "Collection list"
       }
     },
     "product-feature": {
       "type": "section-product-feature",
       "settings": {
-        "image_layout": "square",
-        "image_position": "inline",
-        "text_position": "right",
         "text_alignment": "left",
-        "image_link_1": "",
-        "image_link_2": "",
-        "hide_image_2": false,
-        "heading": "This is a heading for a Product feature block.",
-        "description": "<p>Use this text to share information about the point put forth above. Describe a product, your brand, or what makes you special.<\/p>",
-        "button_text": "Learn more",
-        "button_link": "",
-        "button_style": "primary",
-        "video_url": "",
-        "bg_color": ""
+        "button_text": "Learn more"
       }
     },
     "featured-collection": {
       "type": "section-collection",
       "settings": {
-        "collection": "",
-        "products_rows": 2,
-        "products_layout": "grid",
-        "show_title": true,
-        "show_collection_button": true,
-        "button_style": "primary",
-        "bg_color": "",
-        "enable_slider": true
+        "show_title": true
       }
     },
     "image-with-text": {
@@ -129,14 +73,7 @@
         "text_position": "left",
         "image_background": true,
         "bg_position": "center-center",
-        "subheading": "Subheading",
-        "heading": "Our Story",
-        "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-        "button_text": "Learn More",
-        "button_url": "",
-        "button_style": "secondary",
-        "video_url": "",
-        "bg_color": ""
+        "button_style": "secondary"
       }
     },
     "tabbed-collections": {
@@ -144,27 +81,15 @@
       "blocks": {
         "collection-0": {
           "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "product": ""
-          }
+          "settings": {}
         },
         "collection-1": {
           "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "product": ""
-          }
+          "settings": {}
         },
         "collection-2": {
           "type": "collection",
-          "settings": {
-            "collection": "",
-            "title": "",
-            "product": ""
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -172,38 +97,22 @@
         "collection-1",
         "collection-2"
       ],
-      "settings": {
-        "title": "Featured collections",
-        "button_style": "primary",
-        "bg_color": ""
-      }
+      "settings": {}
     },
     "icons-row": {
       "type": "section-icons-row",
       "blocks": {
         "icons-row-0": {
           "type": "text",
-          "settings": {
-            "icon_name": "shop",
-            "title": "Feature",
-            "content": "Palo Alto is a powerful Shopify theme that will set you apart from the rest with a variety of sections and features."
-          }
+          "settings": {}
         },
         "icons-row-1": {
           "type": "text",
-          "settings": {
-            "icon_name": "shop",
-            "title": "Feature",
-            "content": "Palo Alto is a powerful Shopify theme that will set you apart from the rest with a variety of sections and features."
-          }
+          "settings": {}
         },
         "icons-row-2": {
           "type": "text",
-          "settings": {
-            "icon_name": "shop",
-            "title": "Feature",
-            "content": "Palo Alto is a powerful Shopify theme that will set you apart from the rest with a variety of sections and features."
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -212,10 +121,7 @@
         "icons-row-2"
       ],
       "settings": {
-        "alignment": "left",
-        "icons_width": 45,
-        "bg_color": "#fafafa",
-        "text_color": "#333"
+        "alignment": "left"
       }
     },
     "press": {
@@ -223,35 +129,19 @@
       "blocks": {
         "press-0": {
           "type": "press",
-          "settings": {
-            "text": "<p>Provide some information about what the company below thinks about your brand.<\/p>",
-            "link": "",
-            "logo_width": 120
-          }
+          "settings": {}
         },
         "press-1": {
           "type": "press",
-          "settings": {
-            "text": "<p>Provide some information about what the company below thinks about your brand.<\/p>",
-            "link": "",
-            "logo_width": 120
-          }
+          "settings": {}
         },
         "press-2": {
           "type": "press",
-          "settings": {
-            "text": "<p>Provide some information about what the company below thinks about your brand.<\/p>",
-            "link": "",
-            "logo_width": 120
-          }
+          "settings": {}
         },
         "press-3": {
           "type": "press",
-          "settings": {
-            "text": "<p>Provide some information about what the company below thinks about your brand.<\/p>",
-            "link": "",
-            "logo_width": 120
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -260,51 +150,27 @@
         "press-2",
         "press-3"
       ],
-      "settings": {
-        "title": "Press",
-        "bg_color": ""
-      }
+      "settings": {}
     },
     "video": {
       "type": "section-video",
       "disabled": true,
-      "settings": {
-        "video_height": "sixty-fifty-height-hero",
-        "text_position": "center-center",
-        "hero_video_link": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "video_enable_sound": false,
-        "overlay_opacity": 20,
-        "text_color": "text-light",
-        "title": "Welcome to Palo Alto",
-        "main_subheading": "This subheading helps you provide some more detail to the title above.",
-        "button_text": "Welcome",
-        "button_link": "",
-        "button_style": "secondary"
-      }
+      "settings": {}
     },
     "locations": {
       "type": "section-locations",
       "blocks": {
         "locations-0": {
           "type": "locations",
-          "settings": {
-            "title": "566 Emerson Street Palo Alto, California",
-            "working_time": "<p>Mon - Fri: 8am - 5pm<\/p><p>Sat: Closed<\/p><p>Sun: Closed<\/p>"
-          }
+          "settings": {}
         },
         "locations-1": {
           "type": "locations",
-          "settings": {
-            "title": "566 Emerson Street Palo Alto, California",
-            "working_time": "<p>Mon - Fri: 8am - 5pm<\/p><p>Sat: Closed<\/p><p>Sun: Closed<\/p>"
-          }
+          "settings": {}
         },
         "locations-2": {
           "type": "locations",
-          "settings": {
-            "title": "566 Emerson Street Palo Alto, California",
-            "working_time": "<p>Mon - Fri: 8am - 5pm<\/p><p>Sat: Closed<\/p><p>Sun: Closed<\/p>"
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -312,49 +178,30 @@
         "locations-1",
         "locations-2"
       ],
-      "settings": {
-        "subheading": "Our stores",
-        "title": "Locations & hours",
-        "bg_color": ""
-      }
+      "settings": {}
     },
     "logo-list": {
       "type": "section-logo-list",
       "blocks": {
         "logo-list-0": {
           "type": "item_logo",
-          "settings": {
-            "logos_width": 120,
-            "url": ""
-          }
+          "settings": {}
         },
         "logo-list-1": {
           "type": "item_logo",
-          "settings": {
-            "logos_width": 120,
-            "url": ""
-          }
+          "settings": {}
         },
         "logo-list-2": {
           "type": "item_logo",
-          "settings": {
-            "logos_width": 120,
-            "url": ""
-          }
+          "settings": {}
         },
         "logo-list-3": {
           "type": "item_logo",
-          "settings": {
-            "logos_width": 120,
-            "url": ""
-          }
+          "settings": {}
         },
         "logo-list-4": {
           "type": "item_logo",
-          "settings": {
-            "logos_width": 120,
-            "url": ""
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -364,57 +211,30 @@
         "logo-list-3",
         "logo-list-4"
       ],
-      "settings": {
-        "bg_color": ""
-      }
+      "settings": {}
     },
     "featured-blog": {
       "type": "section-blog",
       "blocks": {
         "featured-blog-0": {
           "type": "article",
-          "settings": {
-            "article": "",
-            "product1": "",
-            "product2": "",
-            "product3": ""
-          }
+          "settings": {}
         },
         "featured-blog-1": {
           "type": "article",
-          "settings": {
-            "article": "",
-            "product1": "",
-            "product2": "",
-            "product3": ""
-          }
+          "settings": {}
         },
         "featured-blog-2": {
           "type": "article",
-          "settings": {
-            "article": "",
-            "product1": "",
-            "product2": "",
-            "product3": ""
-          }
+          "settings": {}
         },
         "featured-blog-3": {
           "type": "article",
-          "settings": {
-            "article": "",
-            "product1": "",
-            "product2": "",
-            "product3": ""
-          }
+          "settings": {}
         },
         "featured-blog-4": {
           "type": "article",
-          "settings": {
-            "article": "",
-            "product1": "",
-            "product2": "",
-            "product3": ""
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -424,10 +244,7 @@
         "featured-blog-3",
         "featured-blog-4"
       ],
-      "settings": {
-        "title": "",
-        "bg_color": ""
-      }
+      "settings": {}
     }
   },
   "order": [
