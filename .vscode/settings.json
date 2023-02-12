@@ -1,0 +1,11 @@
+{
+    "liquid.format.enable": false,
+    "prettier.embeddedLanguageFormatting": "auto",
+    "prettier.enable": false,
+    "liquid.format.ignore": [
+
+    ],
+    "[liquid]": {
+        "editor.formatOnSave": false
+    }
+}
