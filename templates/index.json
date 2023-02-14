@@ -18,6 +18,10 @@
       ],
       "settings": {}
     },
+    "most-popular": {
+      "type": "section-most-popular",
+      "settings": {}
+    },
     "collection-list": {
       "type": "section-list-collection",
       "blocks": {
@@ -249,6 +253,7 @@
   },
   "order": [
     "slideshow",
+    "most-popular",
     "collection-list",
     "product-feature",
     "featured-collection",

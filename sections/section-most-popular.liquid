@@ -1,34 +1,17 @@
 <h2>Hola</h2>
-{% for collectionn in section.settings.collec %}
-    
-{%- paginate collectionn by 5 -%}
-    <div class="collection__products" data-collection-products>
-    <h4>One Product</h4>
-    </div>
-
-  {%- endpaginate -%}
-
-{% endfor %}
+{%- assign mostPopular = collections['all'].products -%}
+{%- for product in mostPopular -%}
+  {{ product.title }}
+{%- endfor -%}
 
   {% schema %}
     {
         "name": "Most Popular Products",
-        "class": "most-popular-products",
-        "settings": [
-            {
-                "type": "text",
-                "id": "section_title",
-                "label": "Title"
-            },
-            {
-            "type": "collection",
-            "id": "collec",
-            "label": "Collection to feature"
-        }
-        ],
+        "class": "most-popular-products-section",
     "presets": [
     {
-      "name": "Most Popular Products"
+      "name": "Most Popular Products",
+      "settings": {}
     }
   ]
     }
