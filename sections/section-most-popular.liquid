@@ -1,8 +1,17 @@
-<h2>Hola</h2>
-{%- assign mostPopular = collections['all'].products -%}
-{%- for product in mostPopular -%}
-  {{ product.title }}
-{%- endfor -%}
+{%- assign mostPopular = collections['most-popular'].products -%}
+
+<section class="most-popular">
+  <h2>Our most Popular Products</h2>
+  <h5>all hand-crafted</h5>
+  <div class="popular-container">
+    {%- for product in mostPopular -%}
+      <div class="mp-item">
+        {%- render 'product-grid-item', product: product -%}
+    
+      </div>
+    {%- endfor -%}
+  </div>
+</section>
 
   {% schema %}
     {
