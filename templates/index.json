@@ -25,7 +25,14 @@
     "product-feature": {
       "type": "section-product-feature",
       "settings": {
-        "text_alignment": "left",
+        "text_alignment": "center",
+        "button_text": "Learn more"
+      }
+    },
+    "product-feature-2": {
+      "type": "section-product-feature",
+      "settings": {
+        "text_alignment": "center",
         "button_text": "Learn more"
       }
     },
@@ -255,6 +262,8 @@
     "slideshow",
     "most-popular",
     "product-feature",
+    "product-feature-2",
+    "logo-list",
     "collection-list",
     "featured-collection",
     "image-with-text",
@@ -263,7 +272,6 @@
     "press",
     "video",
     "locations",
-    "logo-list",
     "featured-blog"
   ]
 }
