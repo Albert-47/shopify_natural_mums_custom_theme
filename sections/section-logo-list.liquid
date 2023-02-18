@@ -33,6 +33,7 @@
                   data-aspectratio="{{ logo_aspect_ratio }}"
                   style="width: {{ logos_width | append: 'px' }}; padding-top: {{ padding_top }}%;"
                   ><span class="visually-hidden">{{ 'general.accessibility.logo_image' | t }}</span></a>
+                  <span>{{ block.settings.logo_heading }}</span>
                 <noscript>
                   <a href="{{ url }}" class="logo-list__slide-image" style="background-image: url({{ image | img_url: '360x' }}); width: {{ logos_width | append: 'px' }}; padding-top: {{ padding_top }}%;"></a>
                 </noscript>
@@ -45,7 +46,9 @@
                   data-aspectratio="{{ logo_aspect_ratio }}"
                   style="width: {{ logos_width | append: 'px' }}; padding-top: {{ padding_top }}%;"
                   ><span class="visually-hidden">{{ 'general.accessibility.logo_image' | t }}</span>
-                </div>
+                  
+                  </div>
+                  <span>{{ block.settings.logo_heading }}</span>
                 <noscript>
                   <div class="logo-list__slide-image" style="background-image: url({{ image | img_url: '360x' }}); width: {{ logos_width | append: 'px' }}; padding-top: {{ padding_top }}%;"></div>
                 </noscript>
@@ -57,10 +60,12 @@
                 <a href="{{ url }}" class="logo-list__slide-image svg-placeholder" style="width: {{ logos_width | append: 'px' }}; padding-top: {{ padding_top }}%;">
                   {{- 'logo' | placeholder_svg_tag: 'placeholder-svg-filled' -}}
                 </a>
+                <span>{{ block.settings.logo_heading }}</span>
               {%- else -%}
                 <div class="logo-list__slide-image svg-placeholder" style="width: {{ logos_width | append: 'px' }}; padding-top: {{ padding_top }}%;">
                   {{- 'logo' | placeholder_svg_tag: 'placeholder-svg-filled' -}}
                 </div>
+                <span>{{ block.settings.logo_heading }}</span>
               {%- endif -%}
             </div>
           {%- endif -%}
@@ -74,6 +79,7 @@
             <div class="logo-list__slide-image svg-placeholder" style="width: {{ logos_width | append: 'px' }}; padding-top: {{ padding_top }}%;">
               {{- 'logo' | placeholder_svg_tag: 'placeholder-svg-filled' -}}
             </div>
+            <span>{{ block.settings.logo_heading }}</span>
           </div>
         {% endfor %}
       {%- endif -%}
@@ -120,6 +126,11 @@
           "type": "url",
           "id": "url",
           "label": "Link"
+        },
+        {
+          "type": "text",
+          "id": "logo_heading",
+          "label": "Logo Heading"
         }
       ]
     }
