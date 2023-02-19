@@ -115,6 +115,7 @@
         {%- if heading != blank -%}
           <h2>{{ heading | escape }}</h2>
         {%- endif -%}
+        <p style="font-family: 'Clicker Script', cursive; font-size: 4vw;" class="subheading">{{ section.settings.subheading }}</p>
     
         {%- if settings.show_spacer_lines -%}
           <hr>
@@ -220,6 +221,12 @@
       "id": "heading",
       "label": "Heading",
       "default": "This is a heading for a Product feature block."
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Sub Heading",
+      "default": "This is a sub heading for a Product feature block."
     },
     {
       "type": "richtext",
