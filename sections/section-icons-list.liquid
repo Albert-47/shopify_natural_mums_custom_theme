@@ -1,0 +1,52 @@
+<div class="row">
+    Hello
+</div>
+
+
+{% schema %}
+    {
+        "name": "Icons list",
+        "class": "icons-list-section",
+        "blocks": [
+            {
+                "name": "icon-item",
+                "type": "icon-item",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "icon_image",
+                        "label": "Icon"
+                    },
+                    {
+                        "type": "text",
+                        "id": "icon_text",
+                        "label": "Icon Text",
+                        "default": "Default Text to prove thar everything is alright"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "Icons List",
+                "blocks": [
+                    {
+                        "type": "icon-item"
+                    },
+                    {
+                        "type": "icon-item"
+                    },
+                    {
+                        "type": "icon-item"
+                    },
+                    {
+                        "type": "icon-item"
+                    },
+                    {
+                        "type": "icon-item"
+                    }
+                ]
+            }
+        ]
+    }
+{% endschema %}

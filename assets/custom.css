@@ -18,3 +18,18 @@
 .logoItem {
     max-width: 3rem;
 }
+
+.icons-row {
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+.icons-row__slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.icons-row__item {
+    max-width: 8rem;
+}

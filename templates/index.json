@@ -191,6 +191,35 @@
       ],
       "settings": {}
     },
+    "icons-list": {
+      "type": "section-icons-list",
+      "blocks": {
+        "icon-item-1": {
+          "type": "icon-item",
+          "settings": {}
+        },
+        "icon-item-2": {
+          "type": "icon-item",
+          "settings": {}
+        },
+        "icon-item-3": {
+          "type": "icon-item",
+          "settings": {}
+        },
+        "icon-item-4": {
+          "type": "icon-item",
+          "settings": {}
+        },
+        "icon-item-5": {
+          "type": "icon-item",
+          "settings": {}
+        },
+        "icon-item-6": {
+          "type": "icon-item",
+          "settings": {}
+        }
+      }
+    },
     "logo-list": {
       "type": "section-logo-list",
       "blocks": {
@@ -263,12 +292,13 @@
     "most-popular",
     "product-feature",
     "product-feature-2",
+    "icons-row",
+    "icons-list",
     "logo-list",
     "collection-list",
     "featured-collection",
     "image-with-text",
     "tabbed-collections",
-    "icons-row",
     "press",
     "video",
     "locations",
