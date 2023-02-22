@@ -33,3 +33,9 @@
 .icons-row__item {
     max-width: 8rem;
 }
+
+.list-collections__item__title {
+    margin-top: 1rem;
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 1rem;
+}

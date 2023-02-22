@@ -67,15 +67,14 @@
     {%- endunless -%}
 
     <div class="list-collections__item__content">
-      <h3 class="list-collections__item__title">
-        {{- collection_title -}}
-      </h3>
-
       {%- unless button_text == blank -%}
         <div class="list-collections__item__btn-wrapper">
           <span class="btn btn--{{ section.settings.button_style }}">{{ button_text }}</span>
         </div>
       {%- endunless -%}
     </div>
-  </a>
+    </a>
+    <h3 class="list-collections__item__title">
+        {{- collection_title -}}
+    </h3>
 </div>
