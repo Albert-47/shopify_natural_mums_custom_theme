@@ -70,8 +70,7 @@
 
 /* Product Feature */
 
-.product-feature__images--single .product-feature__image {
-    width: 100%;
+/* .product-feature__images--single .product-feature__image {
     height: 25rem;
 }
 
@@ -81,4 +80,23 @@
 
 .product-feature__text {
     width: 52%;
+} */
+
+.product-feature__image {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    height: 35vw;
+}
+
+@media only screen and (min-width: 768px) {
+    .product-feature__images {
+        width: 47%;
+    }
+
+}
+
+.custom-wrapper {
+    max-width: 100%;
 }
