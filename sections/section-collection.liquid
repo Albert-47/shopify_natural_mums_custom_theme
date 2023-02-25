@@ -65,6 +65,7 @@
     <div class="featured-collection__title">
       <div class="wrapper">
         <h2 class="section__heading">{{ collection_title }}</h2>
+        <div style="font-family: 'Clicker Script', cursive;" class="subheading">{{ section.settings.subheading }}</div>
 
         {%- if settings.show_spacer_lines -%}
           <hr>
@@ -154,6 +155,12 @@
         { "value": "primary", "label": "Primary" },
         { "value": "secondary", "label": "Secondary" }
       ]
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "A simple sub-heading for your collection"
     },
     {
       "type": "header",

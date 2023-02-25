@@ -134,3 +134,19 @@
 .header-font {
     font-family: "Playfair Display", serif;
 }
+
+/* Featured Collection */
+
+.featured-collection__title .wrapper .section__heading {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.featured-collection__title .wrapper .subheading {
+    margin-bottom: 2rem;
+}
+
+.collection-feature-product-title {
+    color: #D79E93;
+    font-weight: 800;
+}
