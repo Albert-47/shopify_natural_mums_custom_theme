@@ -161,3 +161,8 @@
     margin-bottom: 2rem;
     text-align: center;
 }
+
+.collection-list-item-title {
+    color: #D79E93;
+    font-weight: 800;
+}
