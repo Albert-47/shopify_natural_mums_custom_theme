@@ -150,3 +150,14 @@
     color: #D79E93;
     font-weight: 800;
 }
+
+/* Collection list */
+
+.list-collections-section .wrapper h2 {
+    margin-bottom: 1rem;
+}
+
+.list-collections-section .wrapper .subheading {
+    margin-bottom: 2rem;
+    text-align: center;
+}
