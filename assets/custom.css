@@ -19,19 +19,43 @@
     max-width: 3rem;
 }
 
-.icons-row {
-    border-bottom: 1px solid gray;
-    border-top: 1px solid gray;
+/* Icons List */
+
+.icons-border {
+    width: 80%;
+    margin: 2rem auto;
+    height: 1px;
+    background-color: rgb(197, 197, 197);
+    border: none;
+    opacity: 0.5 !important;
 }
 
 .icons-row__slider {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
 }
 
-.icons-row__item {
-    max-width: 8rem;
+@media only screen and (min-width: 1700px) {
+    .icons-border {
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .icons-row__slider {
+        flex-wrap: wrap;
+    }
+}
+
+.icons-row {
+    padding: 0;
+}
+
+.icons-row__title {
+    width: 10rem;
+    margin: 1rem auto;
+    font-size: 1rem;
 }
 
 .list-collections__item__title {
