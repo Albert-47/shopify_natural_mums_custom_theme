@@ -54,7 +54,8 @@
 
 .newsletter-section p {
     font-family: 'Clicker Script', cursive;
-    font-size: 5vw;
+    font-size: 4vw;
+    margin-top: -30px;
     color: #EAAE86;
 }
 
@@ -64,7 +65,11 @@
     background-color: #f4ab9d;
 }
 
-.input-group__btn:hover {
+.input-group span {
+    margin: -2px;
+}
+
+button[type=submit]:hover {
     background-color: #fc866f;
 }
 
