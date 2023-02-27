@@ -16,6 +16,7 @@
           {%- assign text = block.settings.text -%}
           {%- assign link = block.settings.link -%}
           <div class="top-bar__slide" {{ block.shopify_attributes }}>
+            <span style="margin-right: 5px">{%- render 'icon-bus' -%}</span>
             {%- if link != blank -%}
               <a href="{{ link }}">
                 {{- text | strip_html | truncatewords: 50 -}}
