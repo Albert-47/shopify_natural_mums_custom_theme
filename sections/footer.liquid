@@ -64,7 +64,7 @@
 							<div class="footer-links__wrapper" {% if show_title %} id="FooterMenu--{{ title | handle }}-{{ forloop.index0 }}" data-collapsible-container-mobile{% endif %}>
 								<ul class="footer-links"{% if show_title %} data-collapsible-content-mobile aria-expanded="false"{% endif %}>
 									{%- for link in menu_links -%}
-										<li><a class="footer-link" href="{{ link.url }}">{{ link.title }}</a></li>
+										<li><a class="footer-link custom-footer-link" href="{{ link.url }}">{{ link.title }}</a></li>
 									{%- endfor -%}
 								</ul>
 							</div>

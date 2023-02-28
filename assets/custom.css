@@ -217,3 +217,18 @@ button[type=submit]:hover {
     margin-bottom: 2rem;
     text-align: center;
 }
+
+/* Footer */
+
+.custom-footer-link {
+    color: #D79E93;
+    font-weight: 800;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .footer-content__logo__image {
+        margin-top: 4rem;
+    }
+
+}
