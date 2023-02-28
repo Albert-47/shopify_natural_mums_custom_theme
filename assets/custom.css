@@ -83,6 +83,12 @@
     color: #EAAE86;
 }
 
+@media only screen and (max-width: 768px) {
+    .newsletter-section p {
+        margin-top: -10px;
+    }
+}
+
 .input-group__btn {
     width: 7rem;
     border-left: 3px solid #f4ab9d;
@@ -194,4 +200,20 @@ button[type=submit]:hover {
 .collection-list-item-title {
     color: #D79E93;
     font-weight: 800;
+}
+
+/* Banner Section */
+
+.banner-section {
+    margin: 4rem 0;
+}
+
+.banner-section h2 {
+    margin-bottom: 1rem;
+}
+
+.banner-section .subheading {
+    font-size: 3vw;
+    margin-bottom: 2rem;
+    text-align: center;
 }

@@ -36,6 +36,12 @@
         "button_text": "Learn more"
       }
     },
+    "banner": {
+      "type": "section-banner",
+      "settings": {
+        "title": "Sample Heading for Banner"
+      }
+    },
     "collection-list": {
       "type": "section-list-collection",
       "blocks": {
@@ -292,6 +298,7 @@
     "featured-collection",
     "product-feature",
     "product-feature-2",
+    "banner",
     "icons-row",
     "collection-list",
     "most-popular",
