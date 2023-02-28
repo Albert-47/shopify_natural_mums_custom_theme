@@ -65,6 +65,11 @@
 }
 
 /* Newsletter Form */
+@media only screen and (min-width: 768px) {
+    .newsletter {
+        width: 500px;
+    }
+}
 
 .input-group {
     flex-wrap: nowrap;
